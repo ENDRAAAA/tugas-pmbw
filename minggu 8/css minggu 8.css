@@ -1,0 +1,49 @@
+
+* {
+    box-sizing: border-box
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    border: 1px solid green;
+    background-color: dodgerblue
+}
+
+nav {
+    float: left;
+    width: 20%
+}
+
+nav ul {
+    list-style-type: none;
+    border: 1px solid green;
+    background-color: #e5e5e5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 8px 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555555;
+    color: #ffffff
+}
+
+article {
+    float: left;
+    padding: 0 20px;
+    background-color: #e5e5e5;
+    width: 80%;
+    border: 1px solid green
+}
+
+footer {
+    text-align: center;
+}
