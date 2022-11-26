@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    padding: 30px;
+    text-align: center;
+    border: 10x solid green;
+    background-color: grey;
+}
+
+nav{
+    float: left;
+    width: 20%;
+}
+
+nav ul{
+    list-style-type:none;
+    border:1px solid green;
+    background-color:grey;
+    text-align: center;
+    padding: 0px;
+    margin-top:0px;
+}
+
+nav ul li a{
+    display: block;
+    color: blue;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: grey;
+    color: blue;
+}
+
+article{
+    float: left;
+    width:80%;
+    border: 1px solid green;
+    background-color: grey;
+    padding: 0 20px;
+}
+
+footer{
+    text-align: center;
+}
+
+.satu{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+.dua{font-family:Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
